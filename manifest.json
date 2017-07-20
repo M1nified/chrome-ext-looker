@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Looker",
+    "version": "0.1.0",
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "dist/Display/DisplayFactory.js",
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "browser_action": {
+        "name": "Looker"
+    }
+}
